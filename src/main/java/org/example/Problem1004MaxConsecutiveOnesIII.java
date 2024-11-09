@@ -3,7 +3,7 @@ package org.example;
 public class Problem1004MaxConsecutiveOnesIII {
     public int longestOnes(int[] nums, int k) {
         int[] islands = new int[k + 1];
-        int islandIndex = k;
+        int islandIndex = 0;
         int max = 0;
         int current = 0;
         int zeros = 0;
